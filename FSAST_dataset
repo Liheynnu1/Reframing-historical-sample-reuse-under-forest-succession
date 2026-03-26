@@ -1,0 +1,31 @@
+FSAST_dataset/
+│
+├── README.md
+├── LICENSE.txt
+├── environment.yml
+│
+├── data/
+│   ├── samples/
+│   │   ├── sample_2012.csv
+│   │   ├── sample_2016.csv
+│   │   ├── sample_2023.csv
+│   │
+│   ├── features/
+│   │   ├── feature_table.csv
+│   │
+│   ├── results/
+│   │   ├── confusion_matrix.csv
+│   │   ├── classification_metrics.csv
+│   │
+│   ├── figures/
+│   │   ├── fig4_data.csv
+│   │   ├── fig6_data.csv
+│   │   ├── table5_data.csv
+│
+├── code/
+│   ├── main.js (GEE script)
+│   ├── preprocessing.js
+│   ├── classification.js
+│
+└── docs/
+    ├── workflow_description.pdf
